@@ -30,10 +30,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og.png",
+        url: "/og.jpg",
         width: 1200,
         height: 630,
-        type: "image/png",
+        type: "image/jpeg",
         alt: `${site.name} — ${site.role}`,
       },
     ],
