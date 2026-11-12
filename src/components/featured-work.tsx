@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { featured } from "@/content/site";
+import { getCaseStudy } from "@/content/work";
 import { Section } from "./section";
 
 export function FeaturedWork() {
@@ -37,11 +39,20 @@ export function FeaturedWork() {
               ))}
             </ul>
 
-            {p.comingSoon && (
-              <p className="mt-5 border-t border-border pt-4 font-mono text-xs text-muted">
-                Full case study — coming soon
-              </p>
-            )}
+            <p className="mt-auto pt-5">
+              <span className="block border-t border-border pt-4 font-mono text-xs text-muted">
+                {getCaseStudy(p.slug) ? (
+                  <Link
+                    href={`/work/${p.slug}`}
+                    className="text-accent underline-offset-4 hover:underline"
+                  >
+                    Read the case study →
+                  </Link>
+                ) : (
+                  "Full case study — coming soon"
+                )}
+              </span>
+            </p>
           </article>
         ))}
       </div>

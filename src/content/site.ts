@@ -1,7 +1,8 @@
 export const site = {
   name: "Ali Geroev",
   role: "Senior Full-Stack Engineer",
-  tagline: "I design, build and ship web platforms end-to-end — Laravel APIs, React frontends, Flutter apps. From first commit to production.",
+  tagline:
+    "I design, build and ship web platforms end-to-end — Laravel APIs, React frontends, Flutter apps. From first commit to production.",
   badge: "Open to UAE / GCC relocation & remote",
   email: "aligovro@gmail.com",
   github: "https://github.com/aligovro",
@@ -27,7 +28,6 @@ export type Project = {
   description: string;
   highlight: { value: string; label: string };
   stack: string[];
-  comingSoon?: boolean;
 };
 
 export const featured: Project[] = [
@@ -36,36 +36,49 @@ export const featured: Project[] = [
     title: "Errig",
     kind: "Marketplace · Classifieds · Mobile app",
     period: "2026 — present",
-    oneLiner: "Multi-vendor marketplace and classifieds platform with a Flutter mobile app, built solo.",
+    oneLiner:
+      "Multi-vendor marketplace and classifieds platform with a Flutter mobile app, built solo.",
     description:
-      "API-first Laravel 12 backend with 590+ REST endpoints behind an OpenAPI 3.0 spec enforced by contract tests; DDD modular monolith with 16 domains. Flutter app with an offline-first cache and outbox sync, real-time chat, payments with fiscal receipts, and delivery integration.",
-    highlight: { value: "590+", label: "API endpoints, one OpenAPI source of truth" },
-    stack: ["Laravel 12", "React 19", "Flutter", "Meilisearch", "WebSockets", "OpenAPI"],
-    comingSoon: true,
+      "API-first Laravel 12 backend with 590+ REST endpoints behind an OpenAPI 3.0 spec enforced by contract tests; DDD modular monolith with 16 domains. Flutter app, live on Google Play, with an offline-first cache and outbox sync, real-time chat, payments with fiscal receipts, and delivery integration.",
+    highlight: {
+      value: "590+",
+      label: "API endpoints, one OpenAPI source of truth",
+    },
+    stack: [
+      "Laravel 12",
+      "React 19",
+      "Flutter",
+      "Meilisearch",
+      "WebSockets",
+      "OpenAPI",
+    ],
   },
   {
     slug: "advert-erp",
     title: "Advert ERP",
     kind: "Enterprise ERP / CRM",
     period: "2025 — present",
-    oneLiner: "ERP for a multi-business advertising holding: leads, media plans, deals, finance.",
+    oneLiner:
+      "ERP for a multi-business advertising holding: leads, media plans, deals, finance.",
     description:
       "Sole engineer on a multi-tenant ERP with approval workflows, a full finance module, per-business document numbering and tailored dashboards for 15 user roles. Cloud PBX telephony integration with automatic call-to-client matching and real-time notifications.",
-    highlight: { value: "1,800+", label: "automated tests incl. tenant isolation" },
+    highlight: {
+      value: "1,800+",
+      label: "automated tests incl. tenant isolation",
+    },
     stack: ["Laravel 12", "React 19", "Inertia", "Reverb", "MySQL"],
-    comingSoon: true,
   },
   {
     slug: "fundraising-saas",
     title: "Fundraising SaaS",
     kind: "Multi-tenant platform · Site builder",
     period: "2025 — present",
-    oneLiner: "Fundraising platform for schools and non-profits with a no-code website builder.",
+    oneLiner:
+      "Fundraising platform for schools and non-profits with a no-code website builder.",
     description:
       "Every organization gets its own site: ~30 configurable widget types, per-site themes, SSR, and custom domains auto-provisioned through the hosting provider's API. Payment-provider partner API: OAuth merchant onboarding, recurring donations, payouts, IP-verified webhooks.",
     highlight: { value: "30", label: "widget types in the site builder" },
     stack: ["Laravel 12", "React 19", "SSR", "Payments API", "Multi-tenancy"],
-    comingSoon: true,
   },
 ];
 
@@ -130,22 +143,27 @@ export const experience = [
 export const stack = [
   {
     group: "Backend",
-    items: "PHP 8 · Laravel 12 · NestJS (Node.js) · REST API design · OpenAPI 3.0 · MySQL 8 · PostgreSQL · Redis · Meilisearch · WebSockets (Reverb) · queues & schedulers",
+    items:
+      "PHP 8 · Laravel 12 · NestJS (Node.js) · REST API design · OpenAPI 3.0 · MySQL 8 · PostgreSQL · Redis · Meilisearch · WebSockets (Reverb) · queues & schedulers",
   },
   {
     group: "Frontend",
-    items: "React 19 · TypeScript 5 · Next.js · Inertia.js · Redux Toolkit · Zustand · TanStack Query · Tailwind CSS 4 · Material UI · SSR · Vite",
+    items:
+      "React 19 · TypeScript 5 · Next.js · Inertia.js · Redux Toolkit · Zustand · TanStack Query · Tailwind CSS 4 · Material UI · SSR · Vite",
   },
   {
     group: "Mobile",
-    items: "Flutter 3 / Dart · Riverpod · offline-first (local cache + outbox sync) · FCM push · Google Play & TestFlight pipelines (Codemagic)",
+    items:
+      "Flutter 3 / Dart · Riverpod · offline-first (local cache + outbox sync) · FCM push · Google Play & TestFlight pipelines (Codemagic)",
   },
   {
     group: "Integrations",
-    items: "payment gateways (OAuth onboarding, recurring, payouts, fiscal receipts) · delivery APIs · cloud PBX · WhatsApp / SMS / Telegram · social login · maps",
+    items:
+      "payment gateways (OAuth onboarding, recurring, payouts, fiscal receipts) · delivery APIs · cloud PBX · WhatsApp / SMS / Telegram · social login · maps",
   },
   {
     group: "DevOps & Quality",
-    items: "Docker · GitHub Actions CI/CD · nginx · Linux (systemd, Supervisor) · zero-downtime deploys · S3 · Sentry · PHPUnit / Pest · Playwright E2E · Vitest",
+    items:
+      "Docker · GitHub Actions CI/CD · nginx · Linux (systemd, Supervisor) · zero-downtime deploys · S3 · Sentry · PHPUnit / Pest · Playwright E2E · Vitest",
   },
 ];
