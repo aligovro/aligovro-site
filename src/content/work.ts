@@ -83,7 +83,7 @@ export const caseStudies: CaseStudy[] = [
     stack: [
       {
         group: "Backend",
-        items: "PHP 8 · Laravel 12 · REST /api/v1 · OpenAPI 3.0 · MySQL 8 · Redis · Meilisearch · Laravel Reverb (WebSockets) · queues & scheduler",
+        items: "PHP 8 · Laravel 13 · REST /api/v1 · OpenAPI 3.0 · MySQL 8 · Redis · Meilisearch · Laravel Reverb (WebSockets) · queues & scheduler",
       },
       {
         group: "Web",

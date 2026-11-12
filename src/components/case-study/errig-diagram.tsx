@@ -114,7 +114,7 @@ export function ErrigDiagram() {
         <Arrow x={345} y1={180} y2={224} />
         <Arrow x={840} y1={180} y2={224} />
 
-        <RowLabel y={218} text="MODULAR MONOLITH · LARAVEL 12" />
+        <RowLabel y={218} text="MODULAR MONOLITH · LARAVEL 13" />
         {domains.map((d, i) => (
           <Box key={d} x={i * (domainW + domainGap) + 4} y={226} w={domainW} label={d} />
         ))}

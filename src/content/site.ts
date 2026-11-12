@@ -39,13 +39,13 @@ export const featured: Project[] = [
     oneLiner:
       "Multi-vendor marketplace and classifieds platform with a Flutter mobile app, built solo.",
     description:
-      "API-first Laravel 12 backend with 590+ REST endpoints behind an OpenAPI 3.0 spec enforced by contract tests; DDD modular monolith with 16 domains. Flutter app, live on the App Store and Google Play, with an offline-first cache and outbox sync, real-time chat, payments with fiscal receipts, and delivery integration.",
+      "API-first Laravel 13 backend with 590+ REST endpoints behind an OpenAPI 3.0 spec enforced by contract tests; DDD modular monolith with 16 domains. Flutter app, live on the App Store and Google Play, with an offline-first cache and outbox sync, real-time chat, payments with fiscal receipts, and delivery integration.",
     highlight: {
       value: "590+",
       label: "API endpoints, one OpenAPI source of truth",
     },
     stack: [
-      "Laravel 12",
+      "Laravel 13",
       "React 19",
       "Flutter",
       "Meilisearch",
@@ -144,7 +144,7 @@ export const stack = [
   {
     group: "Backend",
     items:
-      "PHP 8 · Laravel 12 · NestJS (Node.js) · REST API design · OpenAPI 3.0 · MySQL 8 · PostgreSQL · Redis · Meilisearch · WebSockets (Reverb) · queues & schedulers",
+      "PHP 8 · Laravel 13 · NestJS (Node.js) · REST API design · OpenAPI 3.0 · MySQL 8 · PostgreSQL · Redis · Meilisearch · WebSockets (Reverb) · queues & schedulers",
   },
   {
     group: "Frontend",
