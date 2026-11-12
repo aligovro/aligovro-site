@@ -25,6 +25,13 @@ export async function generateMetadata({
     title: `${study.title} — case study`,
     description: study.summary,
     alternates: { canonical: `/work/${study.slug}` },
+    openGraph: {
+      title: `${study.title} — case study`,
+      description: study.summary,
+      url: `/work/${study.slug}`,
+      type: "article",
+      images: [{ url: "/og.jpg", width: 1200, height: 630, type: "image/jpeg" }],
+    },
   };
 }
 
