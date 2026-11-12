@@ -6,7 +6,7 @@ export const site = {
   badge: "Open to UAE / GCC relocation & remote",
   email: "aligovro@gmail.com",
   github: "https://github.com/aligovro",
-  linkedin: "https://www.linkedin.com/in/ali-govro-6b849b21b",
+  linkedin: "https://www.linkedin.com/in/aligovro",
   domain: "aligovro.com",
   location: "GMT+3 · relocating to UAE / GCC",
 };
