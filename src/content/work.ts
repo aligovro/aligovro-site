@@ -25,8 +25,9 @@ export const caseStudies: CaseStudy[] = [
     role: "Founder & sole developer",
     team: "Solo: backend, web, mobile, infrastructure",
     summary:
-      "A consumer platform that puts a multi-vendor marketplace, a classifieds board and a group-savings organizer behind one account — with a web app, a public REST API and a Flutter app that is live on Google Play.",
+      "A consumer platform that puts a multi-vendor marketplace, a classifieds board and a group-savings organizer behind one account — with a web app, a public REST API and a Flutter app that is live on the App Store and Google Play.",
     links: [
+      { label: "App Store", href: "https://apps.apple.com/app/id6805530150" },
       {
         label: "Google Play",
         href: "https://play.google.com/store/apps/details?id=ru.errig.mobile",
@@ -98,8 +99,8 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     outcome: [
-      "The Android app is published on Google Play and the web platform runs in production; the iOS build ships through a TestFlight pipeline.",
-      "From the first commit to a store release took about eight months of solo work, alongside client projects.",
+      "The app is published on both the App Store and Google Play, and the web platform runs in production.",
+      "From the first commit to the store releases took about eight months of solo work, alongside client projects.",
       "The codebase is structured so that a team can join without a rewrite: clear domain boundaries, a documented API contract and a test suite that guards both.",
     ],
   },

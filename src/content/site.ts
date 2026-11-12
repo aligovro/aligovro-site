@@ -39,7 +39,7 @@ export const featured: Project[] = [
     oneLiner:
       "Multi-vendor marketplace and classifieds platform with a Flutter mobile app, built solo.",
     description:
-      "API-first Laravel 12 backend with 590+ REST endpoints behind an OpenAPI 3.0 spec enforced by contract tests; DDD modular monolith with 16 domains. Flutter app, live on Google Play, with an offline-first cache and outbox sync, real-time chat, payments with fiscal receipts, and delivery integration.",
+      "API-first Laravel 12 backend with 590+ REST endpoints behind an OpenAPI 3.0 spec enforced by contract tests; DDD modular monolith with 16 domains. Flutter app, live on the App Store and Google Play, with an offline-first cache and outbox sync, real-time chat, payments with fiscal receipts, and delivery integration.",
     highlight: {
       value: "590+",
       label: "API endpoints, one OpenAPI source of truth",
@@ -154,7 +154,7 @@ export const stack = [
   {
     group: "Mobile",
     items:
-      "Flutter 3 / Dart · Riverpod · offline-first (local cache + outbox sync) · FCM push · Google Play & TestFlight pipelines (Codemagic)",
+      "Flutter 3 / Dart · Riverpod · offline-first (local cache + outbox sync) · FCM push · App Store & Google Play release pipelines (Codemagic)",
   },
   {
     group: "Integrations",
