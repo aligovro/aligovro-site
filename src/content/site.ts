@@ -54,8 +54,8 @@ export const featured: Project[] = [
     ],
   },
   {
-    slug: "advert-erp",
-    title: "Advert ERP",
+    slug: "advertising-erp",
+    title: "Advertising ERP",
     kind: "Enterprise ERP / CRM",
     period: "2025 — present",
     oneLiner:
@@ -104,7 +104,7 @@ export const principles = [
 export const experience = [
   {
     role: "Senior Full-Stack Developer",
-    org: "Advert Group — advertising holding (remote)",
+    org: "Confidential — advertising holding (remote)",
     period: "2025 — present",
     note: "Sole engineer on two production platforms: an ERP/CRM and a multi-tenant fundraising SaaS.",
   },
